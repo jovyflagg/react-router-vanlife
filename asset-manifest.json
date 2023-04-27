@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/react-router-vanlife/static/css/main.f843bf97.css",
-    "main.js": "/react-router-vanlife/static/js/main.32c610c4.js",
+    "main.css": "/react-router-vanlife/static/css/main.23ca96f8.css",
+    "main.js": "/react-router-vanlife/static/js/main.783a4f1b.js",
     "static/js/787.ce5c1ad5.chunk.js": "/react-router-vanlife/static/js/787.ce5c1ad5.chunk.js",
     "static/media/about-hero.png": "/react-router-vanlife/static/media/about-hero.b81281f667e3c6c1fa9a.png",
     "static/media/home-hero.png": "/react-router-vanlife/static/media/home-hero.3a04dfdfc268ce204982.png",
     "index.html": "/react-router-vanlife/index.html",
-    "main.f843bf97.css.map": "/react-router-vanlife/static/css/main.f843bf97.css.map",
-    "main.32c610c4.js.map": "/react-router-vanlife/static/js/main.32c610c4.js.map",
+    "main.23ca96f8.css.map": "/react-router-vanlife/static/css/main.23ca96f8.css.map",
+    "main.783a4f1b.js.map": "/react-router-vanlife/static/js/main.783a4f1b.js.map",
     "787.ce5c1ad5.chunk.js.map": "/react-router-vanlife/static/js/787.ce5c1ad5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f843bf97.css",
-    "static/js/main.32c610c4.js"
+    "static/css/main.23ca96f8.css",
+    "static/js/main.783a4f1b.js"
   ]
 }
