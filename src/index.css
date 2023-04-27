@@ -85,7 +85,6 @@ nav a:hover {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: 100%;
-  min-width: 500px;
   color: white;
   padding: 45px 23px;
 }
