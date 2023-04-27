@@ -5,7 +5,7 @@ export const Navbar = () => {
     return (
         <>
             <nav className='nav--main'>
-                <Link to='/' className='site-logo'>#VANLIFE</Link>
+                <Link to='/react-router-vanlife' className='site-logo'>#VANLIFE</Link>
                 <NavLink to='/about'>About</NavLink>
                 <NavLink to='/vans'>Vans</NavLink>
             </nav>
