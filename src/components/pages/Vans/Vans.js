@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import "../../server"
+import "../../../server"
 
 export const Vans = () => {
   const [vans, setVans] = React.useState([])

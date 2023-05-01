@@ -6,6 +6,7 @@ export const Navbar = () => {
         <>
             <nav className='nav--main'>
                 <Link to='/react-router-vanlife' className='site-logo'>#VANLIFE</Link>
+                <NavLink to='/host'>Host</NavLink>
                 <NavLink to='/about'>About</NavLink>
                 <NavLink to='/vans'>Vans</NavLink>
             </nav>
