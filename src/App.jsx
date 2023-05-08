@@ -15,7 +15,7 @@ import { HostVanDetail } from "./components/pages/Host/HostVanDetail";
 import { Pricing } from "./components/pages/Host/HostVanDetailLayout/Pricing";
 import { Details } from "./components/pages/Host/HostVanDetailLayout/Details";
 import { Photos } from "./components/pages/Host/HostVanDetailLayout/Photos";
-// import { NoMatch } from "./components/NoMatch"
+import { NotFound } from "./components/NotFound";
 
 function App() {
   return (
@@ -38,6 +38,7 @@ function App() {
               <Route path="photos" element={<Photos />} />
             </Route>
           </Route>
+          <Route path="*" element={<NotFound />} />
         </Route>
       </Routes>
     </>

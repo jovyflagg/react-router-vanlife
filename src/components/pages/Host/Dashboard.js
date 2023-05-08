@@ -3,6 +3,11 @@ import React from 'react'
 
 export const Dashboard = () => {
   return (
-    <div>Dashboard</div>
+    <section>
+      <h1 className="host-vans-title">Latest Activity</h1>
+            <div className="host-vans-list">
+
+            </div>
+    </section>
   )
 }
