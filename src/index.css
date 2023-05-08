@@ -336,8 +336,16 @@ footer {
 
 /*** VAN PAGES ***/
 .van-list-container {
-  padding-inline: 23px;
-  margin-bottom: 50px;
+  padding-inline: 23px
+}
+
+.van-list-filter-buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.van-list-filter-buttons > a {
+  margin-right: 15px;
 }
 
 .van-list {
@@ -361,7 +369,6 @@ footer {
 .van-list-container button {
   margin-right: 20px;
   cursor: pointer;
-  
 }
 
 .van-type {
@@ -416,7 +423,6 @@ footer {
 i[class*='van-type-'] {
   padding: 7px 14px;
 }
-
 
 .van-detail-container {
   padding: 27px;
