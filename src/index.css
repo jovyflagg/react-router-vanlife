@@ -263,8 +263,6 @@ footer {
   background-size: 100%;
   color: white;
   padding: 45px 23px;
-  
-  height: 63vh;
 }
 
 .home-container h1 {
@@ -283,7 +281,7 @@ footer {
   text-decoration: none;
   background-color: #FF8C38;
   border: none;
-  width: 50%;
+  width: 75%;
   align-items: center;
   justify-content: center;
   margin-top: 27px;
