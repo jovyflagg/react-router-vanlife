@@ -4,7 +4,7 @@ import React from 'react'
 export const Dashboard = () => {
   return (
     <section>
-      <h1 className="host-vans-title">Latest Activity</h1>
+      <h1 className="host-vans-title">Latest Activity goes here...coming soon!</h1>
             <div className="host-vans-list">
 
             </div>

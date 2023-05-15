@@ -1,8 +1,8 @@
 import React from "react";
-import { Routes, Route } from "react-router-dom";
+import { Route, createBrowserRouter, RouterProvider, createRoutesFromElements } from "react-router-dom";
 import { Home } from "./components/pages/Home";
 import { About } from "./components/pages/About";
-import { Vans } from "./components/pages/Vans/Vans";
+import { Vans, loader as vansLoader} from "./components/pages/Vans/Vans";
 import { VanDetail } from "./components/pages/Vans/VanDetail";
 import "./server";
 import { HostLayout } from "./components/HostLayout";
@@ -15,17 +15,20 @@ import { HostVanDetail } from "./components/pages/Host/HostVanDetail";
 import { Pricing } from "./components/pages/Host/HostVanDetailLayout/Pricing";
 import { Details } from "./components/pages/Host/HostVanDetailLayout/Details";
 import { Photos } from "./components/pages/Host/HostVanDetailLayout/Photos";
-import { NotFound } from "./components/NotFound";
+import { NotFound } from "./components/pages/NotFound";
+import { Error } from "./components/Error";
+import { Login } from "./components/pages/Login";
 
 function App() {
-  return (
-    <>
-      <Routes>
+  const router = createBrowserRouter(createRoutesFromElements(
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="/react-router-vanlife" element={<Home />} />
           <Route path="about" element={<About />} />
-          <Route path="vans" element={<Vans />} />
+          <Route path="vans" 
+            element={<Vans />} 
+            errorElement ={<Error />}
+            loader={vansLoader} />
           <Route path="vans/:id" element={<VanDetail />} />
           <Route path="host" element={<HostLayout />}>
             <Route index element={<Dashboard />} />
@@ -40,8 +43,9 @@ function App() {
           </Route>
           <Route path="*" element={<NotFound />} />
         </Route>
-      </Routes>
-    </>
+  ))
+  return (
+     <RouterProvider router={router}/>
   );
 }
 
