@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/react-router-vanlife/static/css/main.56f3bfde.css",
-    "main.js": "/react-router-vanlife/static/js/main.adc5e76b.js",
+    "main.js": "/react-router-vanlife/static/js/main.65630886.js",
     "static/js/787.ce5c1ad5.chunk.js": "/react-router-vanlife/static/js/787.ce5c1ad5.chunk.js",
     "static/media/about-hero.png": "/react-router-vanlife/static/media/about-hero.b81281f667e3c6c1fa9a.png",
     "static/media/home-hero.png": "/react-router-vanlife/static/media/home-hero.3a04dfdfc268ce204982.png",
     "index.html": "/react-router-vanlife/index.html",
     "main.56f3bfde.css.map": "/react-router-vanlife/static/css/main.56f3bfde.css.map",
-    "main.adc5e76b.js.map": "/react-router-vanlife/static/js/main.adc5e76b.js.map",
+    "main.65630886.js.map": "/react-router-vanlife/static/js/main.65630886.js.map",
     "787.ce5c1ad5.chunk.js.map": "/react-router-vanlife/static/js/787.ce5c1ad5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.56f3bfde.css",
-    "static/js/main.adc5e76b.js"
+    "static/js/main.65630886.js"
   ]
 }
